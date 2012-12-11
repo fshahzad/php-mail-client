@@ -5,6 +5,9 @@ $account['username'] = $_POST['username'];
 $account['password'] = $_POST['password'];
 $account['mailbox'] = "{imap.gmail.com:993/imap/ssl}INBOX";
 
+$_SESSION['username'] = $_POST['username'];
+$_SESSION['password'] = $_POST['password'];
+
 function decode_imap_text($str)
 {
     $result = '';
