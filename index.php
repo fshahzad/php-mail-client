@@ -45,7 +45,7 @@ include_once("header.php");
     <div class="container">
 
       <form class="form-signin" action="process.php" method="POST">
-        <h2 class="form-signin-heading">Please Sign In with your Email Account</h2>
+        <h2 class="form-signin-heading">Please Sign In with your Gmail Account</h2>
         <input type="text" class="input-block-level" name="username" placeholder="Address@gmail.com">
         <input type="password" class="input-block-level" name="password" placeholder="Password">
         <input class="input-xlarge" id="disabledInput" type="text" placeholder="Gmail" disabled>

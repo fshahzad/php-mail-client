@@ -1,8 +1,8 @@
 <?php
 
 
-$account['username'] = "delisukma";
-$account['password'] = "desember89";
+$account['username'] = $_POST['username'];
+$account['password'] = $_POST['password'];
 $account['mailbox'] = "{imap.gmail.com:993/imap/ssl}INBOX";
 
 function decode_imap_text($str)
